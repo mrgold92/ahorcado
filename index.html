@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- jQuery JS 3.1.0 -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="main.js"></script>
+    <title>Ahorcado</title>
+  </head>
+  <body>
+    <div class="all">
+      <section class="intentos">
+        <div class="container">
+          <div class="row">
+            <div class="col" id="intentos">
+              <p class="text-center">Intentos: 5</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="letras">
+        <div class="container">
+          <div class="row">
+            <div class="col" id="letras">
+              <p>-----</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pistas">
+        <div class="container">
+          <div class="row">
+            <div id="pistas" class="col">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="abc">
+        <div class="container">
+          <div class="row">
+            <div class="col" id="abc"></div>
+          </div>
+        </div>
+      </section>
+      <section class="mensajes">
+        <div class="container">
+          <div class="row">
+            <div id="mensajes" class="col"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <button id="again" onclick="again()">Again</button>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.all{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.abc{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: rgb(43,62,76);
+    color:white;
+    text-align: center;
+    justify-content: center;
+}
+.mensajes{
+    height: 100px;
+    display: none;
+    align-items: center;
+    background: rgb(43,62,76);
+    color:white;
+    text-align: center;
+    justify-content: center;
+}
+
+.intentos{
+    background: rgb(53,53,53);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pistas{
+    background: rgb(232,232,232);
+    color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abc ul li{
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.abc ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all .2s ease-out;
+}
+
+.abc ul li a:hover{
+    font-size: 25px;
+    color:rgb(34,134,216);
+}
+
+.intentos .row #intentos p, #pistas{
+    text-align: center;
+}
+
+#letras{
+    text-align: center;
+    font-size: 50px;
+}
+
+#again{
+    height:35px;
+    border-radius:5px;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    width:70px;
+    margin-top:20px;
+    background:#333;
+    color:white;
+    border:none;
+    padding:2px;
+    cursor:pointer;
+  }
