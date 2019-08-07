@@ -1,6 +1,6 @@
 # El ahorcado
 
-Este sencillo repositorio contiene el código básico para la creación del juego de "El ahorcado", hecho completamente con JS.
+Este sencillo repositorio contiene el código básico para la creación del juego "El ahorcado", hecho completamente con JS.
 
 ### Tecnologías
 - HTML 5.
